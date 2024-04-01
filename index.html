@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>foody</title>
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style type="text/css">
+    .background{
+      background-image: url('images/bg-icon.png');
+    }
+  </style>
+</head>
+<body>
+	<!---------------------------nav bar-------------------------------->
+	<div class="navigation_bar">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand text-danger" href="#">Foody</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About Us</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="product.html">product</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          pages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact us</a>
+      </li>
+      <li class="nav-item ms-5 mt-2 text-info">
+      	<i class="fa-solid fa-magnifying-glass"></i>
+      </li>
+      <li class="nav-item ms-5 mt-2">
+      	<i class="fa-solid fa-user"></i>
+      </li>
+      <li class="nav-item ms-5 mt-2">
+      	<i class="fa-solid fa-address-card"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+<!------------------------------------------Slider---------------------------------->
+<div class="food_slider">
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/carousel-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-dark" data-aos="fade-right">
+        <h1>Natural Food Is</h1>
+        <h1> ALways Healty</h1>
+      	<a href=" product.html" class="btn bg-success">Product</a>
+      	<a href="contact.html" class="btn bg-danger">Contact us</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousel-2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-dark" data-aos="fade-right">
+        <h1>Natural Food Is</h1>
+        <h1> ALways Healty</h1>
+      	<a class="btn bg-success">Product</a>
+      	<a class="btn bg-danger">Contact us</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/carousel-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-dark" data-aos="fade-right">
+        <h1>Natural Food Is</h1>
+        <h1> ALways Healty</h1>
+      	<a class="btn bg-success">Product</a>
+      	<a class="btn bg-danger">Contact us</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<!----------------------------------BEst organic fruits---------------------------->
+	<div class="organic_food mt-5" data-aos="fade-up" data-aos-duration="3000">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="organic_img">
+						<img src="images/about.jpg" class="img-fluid">
+					</div>
+				</div>
+				<div class="col-lg-6 mt-5">
+					<div class="oranic_text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
+						<h1>Best organic fruits and vegetable</h1>
+						<p>Organic food is grown without the use of synthetic chemicals, such as human-made pesticides and fertilizers, and does not contain genetically modified organisms (GMOs)</p>
+					</div>
+					<div class="icon_text">
+					<p><i class="fa-solid fa-check"></i>An organic food brand, specialized in the manufacturing </p>
+					<p><i class="fa-solid fa-check"></i>An organic food brand, specialized in the manufacturing </p>
+					<p><i class="fa-solid fa-check"></i>An organic food brand, specialized in the manufacturing </p>
+					<a class="btn bg-success">Read more</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!---------------------------Our features----------------------------------------------------->
+	<div class="our_features p-5 mt-5 bg-light" data-aos="zoom-in" data-aos-duration="1500">
+		<div class="feature text-center">
+			<h1><span class="after_p">our features</span></h1>
+			<p>grow and produce food without using synthetic chemicals such as pesticides and artificial fertilisers.</p>
+		</div>
+    <div class="feature_process">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="our_div">
+              <div class="our_images">
+               <img src="images/icon-1.png">
+              </div>
+              <div class="our_text">
+                <h2>Natural Process</h2>
+                <p>Organic food is grown without the use of synthetic chemicals, such as human-made pesticides and fertilizers,</p>
+              </div>
+                <div class="feature_botton ">
+                 <a href="about.html" class="btn bg-light text-success border-success">Read more</a>
+               </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="our_div">
+              <div class="our_images">
+               <img src="images/icon-2.png">
+             </div>
+              <div class="our_text">
+                <h2>Organic Product</h2>
+                <p>Organic food is grown without the use of synthetic chemicals, such as human-made pesticides and fertilizers,</p>
+             </div>
+             <div class="feature_botton ">
+             <a class="btn bg-light text-success border-success">Read more</a>
+           </div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="our_div">
+              <div class="our_images">
+               <img src="images/icon-3.png">
+             </div>
+              <div class="our_text">
+                <h2>Biologically Safe</h2>
+                <p>Organic food is grown without the use of synthetic chemicals, such as human-made pesticides and fertilizers,</p>
+             </div>
+           <div class="feature_botton ">
+             <a class="btn bg-light text-success border-success">Read more</a>
+           </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+   <!------------------------------------------OUr product------------------------------------------>
+	<div class="our_product mt-5" data-aos="fade-down-right" data-aos-duration="1500">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+    <h1><span class="after_p">Our Product</span></h1>
+    <p>such as human-made pesticides and fertilizers, and does not contain genetically modified organisms</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="our_btn">
+          <a href="#" class="btn border-success text-dark">Vegetable</a>
+          <a href="#" class="btn border-success text-dark">Fruits</a>
+          <a href="#" class="btn border-success text-dark">Fresh</a>
+        </div>
+        </div>
+        <div class="product_detail">
+          <div class="row">
+          <div class="col-lg-3 col-md-4">
+            <div class="product">
+            <img src="images/product-1.jpg" class="img-fluid">
+            <div class="product_text text-center">
+              <h4>Fresh Tommato</h4>
+              <p class="text-success">$19.00 <del class="text-dark">$29.00</del></p>
+             <p class="border"><i class="fa-solid fa-eye"></i>View detail <i class="fa-solid fa-bag-shopping"></i>Add to cart</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="product">
+            <img src="images/product-2.jpg" class="img-fluid">
+             <div class="product_text text-center">
+              <h4>Fresh Tommato</h4>
+              <p class="text-success">$19.00 <del class="text-dark">$29.00</del></p>
+              <p class="border"><i class="fa-solid fa-eye"></i>View detail <i class="fa-solid fa-bag-shopping"></i>Add to cart</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="product">
+            <img src="images/product-3.jpg" class="img-fluid">
+            <div class="product_text text-center">
+              <h4>Fresh Tommato</h4>
+              <p class="text-success">$19.00 <del class="text-dark">$29.00</del></p>
+              <p class="border"><i class="fa-solid fa-eye"></i>View detail <i class="fa-solid fa-bag-shopping"></i>Add to cart</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="product">
+            <img src="images/product-4.jpg" class="img-fluid">
+             <div class="product_text text-center">
+              <h4>Fresh Tommato</h4>
+              <p class="text-success">$19.00 <del class="text-dark">$29.00</del></p>
+              <p class="border"><i class="fa-solid fa-eye"></i>View detail <i class="fa-solid fa-bag-shopping"></i>Add to cart</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="product">
+            <img src="images/product-5.jpg" class="img-fluid">
+            <div class="product_text text-center">
+              <h4>Fresh Tommato</h4>
+              <p class="text-success">$19.00 <del class="text-dark">$29.00</del></p>
+              <p class="border"><i class="fa-solid fa-eye"></i>View detail <i class="fa-solid fa-bag-shopping"></i>Add to cart</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="product">
+            <img src="images/product-6.jpg" class="img-fluid">
+             <div class="product_text text-center">
+              <h4>Fresh Tommato</h4>
+              <p class="text-success">$19.00 <del class="text-dark">$29.00</del></p>
+              <p class="border"><i class="fa-solid fa-eye"></i>View detail <i class="fa-solid fa-bag-shopping"></i>Add to cart</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="product">
+            <img src="images/product-7.jpg" class="img-fluid">
+            <div class="product_text text-center">
+              <h4>Fresh Tommato</h4>
+              <p class="text-success">$19.00 <del class="text-dark">$29.00</del></p>
+              <p class="border"><i class="fa-solid fa-eye"></i>View detail <i class="fa-solid fa-bag-shopping"></i>Add to cart</p>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="product">
+            <img src="images/product-8.jpg" class="img-fluid">
+             <div class="product_text text-center">
+              <h4>Fresh Tommato</h4>
+              <p class="text-success">$19.00 <del class="text-dark">$29.00</del></p><p class="border"><i class="fa-solid fa-eye"></i>View detail <i class="fa-solid fa-bag-shopping"></i>Add to cart</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="product_botton text-center mt-5 p-3">
+        <a href="#" class="btn text-light visit">Buy our product</a>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------------------------visit our firm----------------------------------->
+  <div class="background">
+  <div class="visit firm mt-5 p-5 text-light" data-aos="fade-left" data-aos-duration="1500">
+    <div class="row">
+    <div class="col-lg-6">
+      <h1>Visit our firm</h1>
+       <p>The field visit or field trip is an educational procedure by which each student gain or learn information by observing the objects, places, natural events and other real-life information.</p>
+    </div>
+    <div class="col-lg-6">
+      <div class="visit_btn">
+        <a href="#" class="btn bg-danger text-light">Visit now</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--customer review--------------------------->
+<div class="customer_review text-center mt-5 pb-5 bg-light" data-aos="flip-up" data-aos-duration="1500">
+    <h1 class="before_p">Customer Review</h1>
+    <p>Some of the most common claims associated with organic foods in the United States are that they are free of preservatives, hormones, additives, and genetically modified organisms.</p>
+  <div class="review mt-5">
+    <div class="container">
+<div class="owl-carousel owl-theme">
+  <div class="item">
+    <div class="review_client shadow py-5 px-2 text-center">
+      <p>Some of the most common claims associated with organic foods in the United States are that they are free of preservatives, hormones, additives, and genetically modified organisms.</p>
+      <img src="images/testimonial-1.jpg" style="width:50px">
+      <h4>Client Name</h4>
+      <p>professional</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="review_client shadow py-5 px-2 text-center">
+      <p>Some of the most common claims associated with organic foods in the United States are that they are free of preservatives, hormones, additives, and genetically modified organisms.</p>
+      <img src="images/testimonial-1.jpg" style="width:50px">
+      <h4>Client Name</h4>
+      <p>professional</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="review_client shadow py-5 px-2 text-center">
+      <p>Some of the most common claims associated with organic foods in the United States are that they are free of preservatives, hormones, additives, and genetically modified organisms.</p>
+      <img src="images/testimonial-1.jpg" style="width:50px">
+      <h4>Client Name</h4>
+      <p>professional</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="review_client shadow py-5 px-2 text-center">
+      <p>Some of the most common claims associated with organic foods in the United States are that they are free of preservatives, hormones, additives, and genetically modified organisms.</p>
+      <img src="images/testimonial-1.jpg" style="width:50px">
+      <h4>Client Name</h4>
+      <p>professional</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="review_client shadow py-5 px-2 text-center">
+      <p>Some of the most common claims associated with organic foods in the United States are that they are free of preservatives, hormones, additives, and genetically modified organisms.</p>
+      <img src="images/testimonial-1.jpg" style="width:50px">
+      <h4>Client Name</h4>
+      <p>professional</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="review_client shadow py-5 px-2 text-center">
+      <p>Some of the most common claims associated with organic foods in the United States are that they are free of preservatives, hormones, additives, and genetically modified organisms.</p>
+      <img src="images/testimonial-1.jpg" style="width:50px">
+      <h4>Client Name</h4>
+      <p>professional</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!--------------------------latest blog-------------------------------->
+  <div class="latest_blog text-center mt-5 mb-5"  data-aos="zoom-in-up" data-aos-duration="1500">
+    <h1 class="before_p">Latest Blog</h1>
+    <p>The field visit or field trip is an educational procedure by which each student gain </p>
+  </div>
+  <div class="container mt-5" data-aos="zoom-in-up" data-aos-duration="1800">
+    <div class="row">
+      <div class="col-lg-4 bg-light shadow p-2">
+       <div class="blog">
+        <img src="images/blog-1.jpg" class="img-fluid">
+        <h5>How to cultivate organic fruitts and vegetvble in own firm</h5>
+        <hr>
+          <i class="fa-solid fa-user"></i>Admin  <i class="fa-solid fa-calendar"></i>01 jan 2045,
+       </div>
+      </div>
+      <div class="col-lg-4 bg-light shadow p-2">
+       <div class="blog">
+        <img src="images/blog-2.jpg" class="img-fluid">
+        <h5>How to cultivate organic fruitts and vegetvble in own firm</h5>
+        <hr>
+          <i class="fa-solid fa-user"></i>Admin  <i class="fa-solid fa-calendar"></i>01 jan 2045,
+       </div>
+      </div>
+      <div class="col-lg-4 bg-light shadow p-2">
+       <div class="blog">
+        <img src="images/blog-3.jpg" class="img-fluid">
+        <h5>How to cultivate organic fruitts and vegetvble in own firm</h5>
+        <hr>
+          <i class="fa-solid fa-user"></i>Admin  <i class="fa-solid fa-calendar"></i>01 jan 2045,
+       </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------Footer------------------------------------------>
+  <div class="footer bg-dark text-light mt-5 pt-5" data-aos="zoom-in-right" data-aos-duration="1500">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6" data-aos="zoom-in-right">
+          <h1>foody</h1>
+          <p>Some of the most common claims associated with organic foods in the United States are that they are free of preservatives, hormones, additives, and genetically modified organisms.Some of the most common</p>
+          <a href="#>"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-facebook"></i></a><a href="#"><i class="fa-brands fa-youtube"></i></a><a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="col-lg-3 col-md-6  col-sm-6 add">
+          <h4>Address</h4>
+          <p><a href="#"><i class="fa-solid fa-location-dot"></i></a> 123 Street, New York, USA</p>
+          <p> <a href="#"><i class="fa-solid fa-phone"></i></a>+012 354861552</p>
+           <p><a href="#"><i class="fa-regular fa-envelope"></i></a>info@example.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <h4>Quick links</h4>
+          <div class="contact_links">
+          <ul>
+            <li><a href="#">About us</a></li>
+             <li><a href="#">Contact us</a></li>
+              <li><a href="#">Our services</a></li>
+               <li><a href="#">Teram & condition</a></li>
+                <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <h4>Newsletter</h4>
+          <p>Dolor Annet sit justo amet elitr clita impus eitr est.</p>
+          <input type="email" name="email" placeholder="your email" class="border-light"><a href="#" class="btn bg-success mt-3">Sign up</a>
+        </div>
+    </div>
+  </div>
+  <hr>
+  <h5>Your site Name,<p>All right reserved</p></h5>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+   <script>
+    $('.owl-carousel').owlCarousel({
+      items: 3,
+      loop: true,
+      margin: 15,
+      nav: true,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+</body>
+</html>

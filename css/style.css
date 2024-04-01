@@ -1,0 +1,176 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+.carousel-caption{
+	padding-bottom: 170px;
+    padding-right: 400px;
+}
+.carousel-caption h1{
+	font-size: 42px;
+	padding-bottom: 10px;
+}
+h1{
+	text-transform: capitalize;
+}
+.fa-check{
+	color: green;
+	font-size: 25px;
+	margin-right: 5px;
+}
+.btn{
+	color: white;
+	border-radius: 50px;
+}
+.our_div{
+	background-color: white;
+	box-shadow: 2px 2px 5px gray, -2px -2px 5px gray;
+	padding: 20px 10px;
+	text-align: center;
+	margin: 5px 10px;
+    margin-top: 25px;
+}
+.feature_botton .btn:hover{
+	background-color: green;
+	color: white;
+}
+li a:hover{
+	background-color:green;
+	color: yellow;
+	border-radius: 20px;
+	padding: 5px;
+}
+.visit_btn{
+	padding: 10px;
+	margin-left: 170px;
+    margin-top: 50px;
+}
+.our_btn{
+	padding: 20px;
+    padding-left: 150px;
+    margin-left: -20px;
+}
+.after_p{
+	position: relative;
+}
+.after_p:after{
+	content:"";
+	height:2px;
+	width:100px;
+	background-color:red;
+	left:50px;
+	bottom:50px;
+	position:absolute;
+}
+.after_p{
+	position: relative;
+}
+.after_p:before{
+	content:"";
+	height:2px;
+	width:70px;
+	background-color:green;
+	left:65px;
+	bottom:60px;
+	position:absolute;
+}
+.visit{
+	background-color: green;
+}
+.review_client img{
+	border-radius: 100px;
+	width: 50px;
+}
+.review_client:hover{
+	background-color: green;
+	color: white;
+}
+.svg-inline--fa{
+	color: green;
+	margin: 4px;
+}
+.footer .svg-inline--fa{
+	color: white;
+	border: 2px solid white;
+	border-radius: 100px;
+	padding: 10px;
+}
+.add a .svg-inline--fa{
+	border-radius: 0px;
+	border: none;
+}
+.footer p{
+	font-size: 12px;
+	color: gray;
+}
+.before_p{
+	position: relative;
+}
+.before_p:after{
+	content:"";
+	height:2px;
+	width:70px;
+	background-color:green;
+	left:460px;
+	bottom:70px;
+	position:absolute;
+}
+.before_p{
+	position: relative;
+}
+.before_p:before{
+	content:"";
+	height:2px;
+	width:90px;
+	background-color:red;
+	left:450px;
+	bottom:60px;
+	position:absolute;
+}
+@media (max-width: 500px){
+	.visit_btn{
+		margin-left: 60px;
+		margin-top: -20px;
+	}
+}
+.btn:hover{
+	background-color: yellowgreen;
+	color: white;
+
+}
+.sell{
+	display: flex;
+}
+.product{
+	box-shadow: 2px 2px 2px gray;
+}
+.our_div{
+	transition-property:background-color;
+	transiton-delay:0.2s;
+	transition-duration:2s;
+	transition-timing-function:linear;
+}
+.our_div:hover{
+	background-color: green;
+}
+.customer_review{
+	padding: 50px 20px;
+}
+.btn{
+	transition-propert:transform;
+	transiton-delay:0.2s;
+	transition-duration:2s;
+	transition-timing-function:linear;
+}
+.btn:hover{
+	transform: translateY(-10px);
+}
+.contact_links li a{
+	outline-style: none;
+	color: gray;
+}
+.navbar-brand{
+	font-size: 30px;
+}
+
